@@ -26,6 +26,6 @@ The standalone CLI has no npm runtime dependencies. With Node 20 or later, R, an
 
 The CLI runtime is version 2.4.3. The eight runtime source files are copied verbatim from upstream commit `c55d189d76be238c204ed114736cd8cece5237ad`. This package includes the research workflow described in the manuscript. The hosted application has a separate implementation. The historical 106-task benchmark used an earlier system, and its recorded scores apply to that evaluation only.
 
-The companion [106-task benchmark archive](https://github.com/ykzeng-yale/power-agent-benchmark-106) contains the tasks, comparator responses, and historical scores.
+The companion [106-task benchmark archive](https://github.com/ykzeng-yale/power-agent-benchmark-106) contains the benchmark questions and their archived reference answers.
 
 The source code is available under the [MIT License](LICENSE). R packages retain their own licenses.
