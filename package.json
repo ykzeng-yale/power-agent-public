@@ -1,0 +1,16 @@
+{
+  "name": "power-agent-scientific",
+  "version": "2.4.3",
+  "private": true,
+  "description": "Research workflow for statistical power and sample size planning",
+  "type": "module",
+  "main": "scientific/scientific-harness.js",
+  "scripts": {
+    "start": "node scripts/run-scientific.mjs",
+    "test": "node --test scientific/test-scientific-design-binding.js scientific/test-scientific-model-config.js scientific/test-scientific-output-contract.js scientific/test-scientific-r-artifacts.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "license": "MIT"
+}

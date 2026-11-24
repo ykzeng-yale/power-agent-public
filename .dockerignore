@@ -1,0 +1,9 @@
+**
+!package.json
+!scientific
+!scientific/*.js
+!scientific/scientific-r-worker.py
+scientific/test-*.js
+!scripts
+!scripts/run-scientific.mjs
+!scripts/install-r-packages.R
